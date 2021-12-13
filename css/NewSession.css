@@ -101,7 +101,7 @@ body {
   color: rgba(221,57,57,1);
   position: absolute;
   top: 0px;
-  left: 192px;
+  left: 75px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 18px;
@@ -197,18 +197,10 @@ body {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   overflow: hidden;
-}
-.v90_141 {
-  width: 64px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 8px;
-  left: 40px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 18px;
-  opacity: 1;
-  text-align: left;
+  color: rgba(255,255,255,1);
 }
 .v90_142 {
   width: 144px;
@@ -237,6 +229,9 @@ body {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   overflow: hidden;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 18px;
 }
 .v90_144 {
   width: 82px;
