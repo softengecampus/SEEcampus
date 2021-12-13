@@ -1,24 +1,32 @@
 <?php 
 
 require_once("config.php");
+session_start();
+
+if(!isset($_SESSION["user"])) header("Location: index.php");
 
 if(isset($_POST['post'])){
 
     $title = filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);
     $msg = filter_input(INPUT_POST, 'msg', FILTER_SANITIZE_STRING);
 
-	$sql = "INSERT INTO forum (forum_title, forum_message) VALUES (:title, :msg)";
+	$sql = "INSERT INTO forum (forum_title, forum_message, post_by, time) VALUES (:title, :msg, :owner, :time)";
     $stmt = $db->prepare($sql);
     
     $params = array(
         ":title" => $title,
 		":msg" => $msg,
+		":owner" => $_SESSION["user"],
+		":time" => now(),
     );
 
     $stmt->execute($params);
 
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
-}
+    $newpost = $stmt->fetch(PDO::FETCH_ASSOC);
+	if($newpost){
+            header("Location: forum.php");
+        }
+    }
 ?>
 <html>
     <head>
