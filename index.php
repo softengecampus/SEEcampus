@@ -2,7 +2,9 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-        <link href="./css/SplashScreen.css" rel="stylesheet" /><title>Document</title>
+        <link href="./css/SplashScreen.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
     </head>
     <body>
         <div class="v1_3">
