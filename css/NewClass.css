@@ -330,6 +330,10 @@ body {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   overflow: hidden;
+  color: rgba(255,255,255,1);
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 24px;
 }
 .v57_610 {
   width: 107px;
