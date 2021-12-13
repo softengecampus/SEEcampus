@@ -32,7 +32,7 @@ if(isset($_POST['post'])){
     <head>
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet" />
-        <link href="./css/main.css" rel="stylesheet" />
+        <link href="./css/NewTopic.css" rel="stylesheet" />
         <title>Document</title>
     </head>
     <body>
