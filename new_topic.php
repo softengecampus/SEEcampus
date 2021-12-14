@@ -56,12 +56,12 @@ if(isset($_POST['post'])){
             </div>
             <div class="v90_174">
                 <div class="v90_175">
-                    <a href=""><div class="v90_176"></div></a>
-                    <a href=""><span class="v90_177">DISCARD</span></a>
+					<input type="reset" class="v90_176">
                 </div>
                 <div class="v90_178">
                     <a href=""><div class="v90_179"></div></a>
 					<button type="submit" name="post" class="v90_179">POST</button>
+					</form>
                 </div>
             </div>
         </div>
