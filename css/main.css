@@ -9,31 +9,26 @@ body {
   height: 731px;
   max-width: 500px;
   margin: auto;
-  background: rgba(0,51,80,1);
-  opacity: 1;
+  background: rgba(0, 51, 80, 1);
   position: relative;
-  top: 0px;
-  left: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
 .v6_10 {
   width: 267px;
   height: 60px;
-  opacity: 1;
   position: absolute;
   top: 399px;
   left: 72px;
   overflow: hidden;
-  background: rgba(189,84,84,1);
-  opacity: 1;
+  background: rgba(189, 84, 84, 1);
   position: relative;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   overflow: hidden;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   font-family: Poppins;
   font-weight: Regular;
@@ -43,7 +38,6 @@ body {
 .v6_8 {
   width: 331px;
   height: 75px;
-  opacity: 1;
   position: absolute;
   top: 110px;
   left: 40px;
@@ -52,11 +46,8 @@ body {
 .v6_6 {
   width: 331px;
   height: 75px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
+  background: rgba(255, 255, 255, 1);
   position: relative;
-  top: 0px;
-  left: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -68,7 +59,6 @@ body {
 .v6_9 {
   width: 331px;
   height: 75px;
-  opacity: 1;
   position: absolute;
   top: 227px;
   left: 40px;
@@ -89,42 +79,36 @@ body {
   height: 870px;
   max-width: 500px;
   margin: auto;
-  background: rgba(0,51,80,1);
-  opacity: 1;
+  background: rgba(0, 51, 80, 1);
   position: relative;
-  top: 0px;
-  left: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
 .v36_12 {
   width: 411px;
   height: 791px;
-  background: rgba(250,250,250,1);
-  opacity: 1;
+  background: rgba(250, 250, 250, 1);
   position: absolute;
   top: 79px;
-  left: 0px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   overflow: hidden;
 }
 .v36_13 {
   width: 204px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 25px;
   left: 193px;
   font-family: Poppins;
   font-weight: Regular;
   font-size: 24px;
-  opacity: 1;
   text-align: center;
 }
 .v36_14 {
   width: 54px;
   height: 54px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   background: url("../images/logout.png");
   position: absolute;
   top: 25px;
@@ -132,14 +116,12 @@ body {
   font-family: Poppins;
   font-weight: Regular;
   font-size: 24px;
-  opacity: 1;
   text-align: center;
 }
 .v54_29 {
   width: 189px;
   height: 238px;
-  background: rgba(240,132,132,1);
-  opacity: 1;
+  background: rgba(240, 132, 132, 1);
   position: absolute;
   top: 87px;
   left: 210px;
@@ -149,8 +131,7 @@ body {
 .v54_30 {
   width: 189px;
   height: 238px;
-  background: rgba(240,132,132,1);
-  opacity: 1;
+  background: rgba(240, 132, 132, 1);
   position: absolute;
   top: 87px;
   left: 12px;
@@ -160,8 +141,7 @@ body {
 .v54_31 {
   width: 189px;
   height: 238px;
-  background: rgba(240,132,132,1);
-  opacity: 1;
+  background: rgba(240, 132, 132, 1);
   position: absolute;
   top: 336px;
   left: 210px;
@@ -170,8 +150,7 @@ body {
 .v54_33 {
   width: 189px;
   height: 238px;
-  background: rgba(240,132,132,1);
-  opacity: 1;
+  background: rgba(240, 132, 132, 1);
   position: absolute;
   top: 336px;
   left: 13px;
@@ -184,7 +163,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 156px;
   left: 255px;
@@ -193,11 +171,8 @@ body {
 .v54_16 {
   width: 100px;
   height: 100px;
-  background: rgba(189,84,84,1);
-  opacity: 1;
+  background: rgba(189, 84, 84, 1);
   position: absolute;
-  top: 0px;
-  left: 0px;
   border-radius: 50%;
 }
 .v54_17 {
@@ -207,7 +182,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 31px;
   left: 25px;
@@ -220,7 +194,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 156px;
   left: 57px;
@@ -229,11 +202,8 @@ body {
 .v54_13 {
   width: 100px;
   height: 100px;
-  background: rgba(189,84,84,1);
-  opacity: 1;
+  background: rgba(189, 84, 84, 1);
   position: absolute;
-  top: 0px;
-  left: 0px;
   border-radius: 50%;
 }
 .v54_14 {
@@ -243,7 +213,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 22px;
   left: 23px;
@@ -256,7 +225,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 405px;
   left: 255px;
@@ -269,20 +237,14 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 .v36_32 {
   width: 100px;
   height: 100px;
-  background: rgba(189,84,84,1);
-  opacity: 1;
+  background: rgba(189, 84, 84, 1);
   position: absolute;
-  top: 0px;
-  left: 0px;
   border-radius: 50%;
 }
 .v36_33 {
@@ -292,7 +254,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 17px;
   left: 27px;
@@ -305,7 +266,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 405px;
   left: 58px;
@@ -314,11 +274,8 @@ body {
 .v54_19 {
   width: 100px;
   height: 100px;
-  background: rgba(189,84,84,1);
-  opacity: 1;
+  background: rgba(189, 84, 84, 1);
   position: absolute;
-  top: 0px;
-  left: 0px;
   border-radius: 50%;
 }
 .v54_20 {
@@ -328,7 +285,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 27px;
   left: 30px;
@@ -336,7 +292,7 @@ body {
 }
 .v63_50 {
   width: 81px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 278px;
   left: 264px;
@@ -344,12 +300,11 @@ body {
   font-family: Poppins;
   font-weight: Bold;
   font-size: 24px;
-  opacity: 1;
   text-align: left;
 }
 .v63_52 {
   width: 135px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 527px;
   left: 237px;
@@ -357,12 +312,11 @@ body {
   font-family: Poppins;
   font-weight: Bold;
   font-size: 24px;
-  opacity: 1;
   text-align: left;
 }
 .v90_202 {
   width: 120px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 527px;
   left: 49px;
@@ -370,12 +324,11 @@ body {
   font-family: Poppins;
   font-weight: Bold;
   font-size: 24px;
-  opacity: 1;
   text-align: left;
 }
 .v63_53 {
   width: 147px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 278px;
   left: 33px;
@@ -383,14 +336,12 @@ body {
   font-family: Poppins;
   font-weight: Bold;
   font-size: 24px;
-  opacity: 1;
   text-align: left;
 }
 .v54_32 {
   width: 189px;
   height: 238px;
-  background: rgba(240,132,132,1);
-  opacity: 1;
+  background: rgba(240, 132, 132, 1);
   position: absolute;
   top: 586px;
   left: 12px;
@@ -403,7 +354,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 652px;
   left: 57px;
@@ -416,20 +366,14 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 .v54_22 {
   width: 100px;
   height: 100px;
-  background: rgba(189,84,84,1);
-  opacity: 1;
+  background: rgba(189, 84, 84, 1);
   position: absolute;
-  top: 0px;
-  left: 0px;
   border-radius: 50%;
 }
 .v54_26 {
@@ -439,7 +383,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 20px;
   left: 34px;
@@ -447,7 +390,7 @@ body {
 }
 .v63_51 {
   width: 151px;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 775px;
   left: 31px;
@@ -455,6 +398,5 @@ body {
   font-family: Poppins;
   font-weight: Bold;
   font-size: 24px;
-  opacity: 1;
   text-align: left;
 }
