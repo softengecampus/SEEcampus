@@ -25,13 +25,10 @@ if(isset($_POST['post'])){
 		":lecturer" => $lecturer,
     );
 
-    $stmt->execute($params);
+    $saved = $stmt->execute($params);
 
-    $newpost = $stmt->fetch(PDO::FETCH_ASSOC);
-	if($newpost){
-            header("Location: class.php");
-        }
-    }
+    if($saved) header("Location: class.php");
+}
 ?>
 <html>
 <html>
