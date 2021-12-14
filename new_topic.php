@@ -22,7 +22,7 @@ if(isset($_POST['post'])){
 
     $stmt->execute($params);
 
-    $newpost = $stmt->fetch(PDO::FETCH_ASSOC);
+    $newpost = $stmt->execute($params);
 	if($newpost){
             header("Location: forum.php");
         }
@@ -41,7 +41,7 @@ if(isset($_POST['post'])){
             <span class="v90_147">New Forum</span>
             <div class="v90_148">
 				<form action="" method="POST">
-                <input type="text" name="ftitle" class="v90_149">
+                <input type="text" name="title" class="v90_149">
                 <div class="v90_150">
                     <span class="v90_151">Forum Title</span>
                     <span class="v90_152">*</span>
