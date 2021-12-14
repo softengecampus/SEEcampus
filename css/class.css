@@ -241,18 +241,6 @@ body {
   border-bottom-right-radius: 30px;
   overflow: hidden;
 }
-.v62_110 {
-  width: 89px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 123px;
-  left: 27px;
-  font-family: Poppins;
-  font-weight: Regular;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
 .v62_111 {
   width: 143px;
   height: 179px;
@@ -514,4 +502,55 @@ body {
   
   background: rgba(0,52,81,1);
   text-decoration: none;
+}
+.kotak{
+	width: 143px;
+	height: 150px;
+	background: rgba(196,196,196,1);
+	position: relative;
+	margin-left:40px;
+	margin-top:30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	float: left;
+	top: 80px;
+}
+.kecil {
+	width: 143px;
+	height: 75px;
+	background: rgba(138,138,138,1);
+	position: relative;
+	top: 85px;
+	left: 0px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	overflow: hidden;
+}
+.base{
+	width: 411px;
+	height: 652px;
+	margin: auto;
+	background: rgba(250,250,250,1);
+	position: absolute;
+	top: 79px;
+	left: 0px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	overflow: hidden;
+}
+.text{
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 15px;
+  left: 27px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
 }
