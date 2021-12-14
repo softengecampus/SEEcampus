@@ -5,12 +5,14 @@ session_start();
 // TODO: Change
 if(!isset($_SESSION["user"])) header("Location: index.php");
 
-$stmt = $db->query("SELECT * from class");
+$stmt = $db->query("SELECT * from assignment");
 while ($row = $stmt->fetch()) {
-    $id=$row['class_id'];
-    $name=$row['class_name'];
-    $lecturer=$row['class_lecturer'];
-    echo $id.$name.$lecturer."<br>";
+    $id=$row['assignment_id'];
+    $name=$row['assignment_name'];
+    $title=$row['assignment_title'];
+    $detail=$row['assignment_description'];
+    $file=$row['assignment_file'];
+    $lengthid=strlen((string)$id);
 }
 
 ?>
@@ -19,18 +21,19 @@ while ($row = $stmt->fetch()) {
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
         <link href="./css/AssignmentView.css" rel="stylesheet" />
-        <title>Document</title>
+        <title>View Assignment</title>
     </head>
     <body>
         <div class="v100_280">
             <div class="v100_281"></div>
-            <span class="v100_282">Assignment I</span>
-            <span class="v100_283">Report of Case Study</span>
+            <span class="v100_282"><?php echo $name ?></span>
+            <span class="v100_283"><?php echo $title ?></span>
             <div class="v100_284"></div>
-            <span class="v100_285">Please make a report about your study case, the minimum is 30 pages and the format is Font Times New Roman 12 pt Spacing 1.5 Margin: Standard Submit your report using pdf format.</span>
-            <span class="v100_286">ID : A00000001</span>
+            <span class="v100_285"><?php echo $detail ?></span>
+            <span class="v100_286">ID : A<?php while ($lengthid < 8){echo "0"; $lengthid=$lengthid+1;}echo $id ?></span>
+            <span class="attitle">Attachment</span>
 			<div class="attachment">
-				<a href="" class="attachmentdesc">Doc1.pdf</a>
+				<a download="<?php echo $title ;?>.pdf" href="data:application/pdf;base64,<?php echo base64_encode($file);?>" class="attachmentdesc">Download the File</a>
 			</div>
             <div class="v100_287">
 			<form>
