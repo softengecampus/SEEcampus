@@ -339,3 +339,43 @@ body {
   opacity: 1;
   text-align: left;
 }
+.kotakpanjang{
+  width: 362px;
+  height: 146px;
+  background: rgba(240,203,132,1);
+  opacity: 1;
+  position: relative;
+  top: 180px;
+  left: 0px;
+  margin-left: 25px;
+  margin-top: 30px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+  float: left;
+}
+.text {
+  width: 89px;
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 9px;
+  text-align: left;
+  text-decoration: none;
+}
+.bigtext {
+  width: 89px;
+  position: absolute;
+  color: white;
+  top: 0px;
+  left: 140px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 100px;
+  text-align: left;
+  text-decoration: none;
+}
