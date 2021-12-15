@@ -12,8 +12,9 @@ if(isset($_POST['post'])){
     $description = filter_input(INPUT_POST, 'description', FILTER_SANITIZE_STRING);
     $title = filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);
     $file = $_POST["file"];
+	$duedate = filter_input(INPUT_POST, 'duedate', FILTER_SANITIZE_STRING);
 
-	$sql = "INSERT INTO assignment (assignment_name, assignment_title, assignment_description, assignment_file) VALUES (:name, :title, :description, :file)";
+	$sql = "INSERT INTO assignment (assignment_name, assignment_title, assignment_description, assignment_file, assignment_duedate) VALUES (:name, :title, :description, :file, :duedate)";
     $stmt = $db->prepare($sql);
     
     $params = array(
@@ -21,6 +22,7 @@ if(isset($_POST['post'])){
 		":title" => $title,
 		":description" => $description,
 		":file" => $file,
+		":duedate" => $duedate,
     );
 
     $saved = $stmt->execute($params);
@@ -54,11 +56,16 @@ if(isset($_POST['post'])){
                     <div class="v93_125"></div>
                     <span class="v93_126">You can add the files here.</span>
                     <div class="upload-btn-wrapper">
-                        <button class="v93_127">+</button>
+                        <button class="v93_125">+</button>
                         <input type="file" id="myfile" name="file" accept="application/pdf" multiple>
                     </div>
                 </div>
             </div>
+			<div class="dd">
+				<span class="v93_123">Due Date</span>
+					
+            </div>
+			<input type="date" name="duedate" class="sesdate"value="<?php echo date('Y-m-d'); ?>" required>
             <div class="v93_128">
                 <input type="text" class="v93_129" name="name" placeholder="Assignment 1">
                 <div class="v93_130">

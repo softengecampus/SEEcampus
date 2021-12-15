@@ -60,7 +60,7 @@ body {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
-  top: 42px;
+  top: 35px;
   left: 0px;
   border: 1px solid rgba(206,206,206,1);
   border-top-left-radius: 16px;
@@ -117,7 +117,7 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 443px;
+  top: 435px;
   left: 25px;
   overflow: hidden;
 }
@@ -151,7 +151,7 @@ body {
 }
 .v93_125 {
   width: 362px;
-  height: 105px;
+  height: 90px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
@@ -163,12 +163,13 @@ body {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   overflow: hidden;
+  font-size: 50px;
 }
 .v93_126 {
   width: 253px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 111px;
+  top: 105px;
   left: 55px;
   font-family: Sanchez;
   font-weight: Regular;
@@ -383,4 +384,33 @@ body {
   top: 186px;
   left: 25px;
   overflow: hidden;
+}
+.dd {
+  width: 362px;
+  height: 141px;
+  background: url("../images/v93_121.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 565px;
+  left: 25px;
+  overflow: hidden;
+}
+.sesdate{
+  width: 362px;
+  height: 42px;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 592px;
+  left: 25px;
+  border: 1px solid rgba(206, 206, 206, 1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+  font-size: 18px;
+  padding: 15px;
 }
