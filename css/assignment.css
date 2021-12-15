@@ -356,10 +356,16 @@ body {
   overflow: hidden;
   float: left;
 }
+a.fillkotakpanjang{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
 .text {
   width: 89px;
   position: absolute;
-  top: 45px;
+  top: -65px;
   left: 20px;
   font-family: Poppins;
   font-weight: Regular;

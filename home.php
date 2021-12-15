@@ -43,11 +43,11 @@ if(!isset($_SESSION["user"])) header("Location: login.php");
             <a href="assignment.php"><div class="v54_32"></div></a><!--Assignment Box-->
             <div class="v54_27">
                 <div class="v54_21">
-                    <a href=""><div class="v54_22"></div></a><!--Assignment Icon-->
+                    <a href="assignment.php"><div class="v54_22"></div></a><!--Assignment Icon-->
                 </div>
-                <a href=""><div class="v54_26"></div></a><!--Assignment Icon-->
+                <a href="assignment.php"><div class="v54_26"></div></a><!--Assignment Icon-->
             </div>
-            <a href=""><span class="v63_51">Assignment</span></a>
+            <a href="assignment.php"><span class="v63_51">Assignment</span></a>
         </div>
     </body>
 </html>

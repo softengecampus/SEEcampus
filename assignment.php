@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php 
+
+require_once("config.php");
+session_start();
+if(!isset($_SESSION["user"])) header("Location: login.php");
+?>
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
@@ -19,16 +24,19 @@
                 <a href="../ForumIN/index.html"><div class="v93_147"></div></a>
                 <a href="../ForumIN/index.html"><div class="v93_148"></div></a>
             </div>
-            <div class="kotakpanjang">
-                <a href=""><span class="v93_151">Assignment 1</span></a>
-                <span class="text">ID : A00000002</span>
-                <span class="v93_152">Due: September 17, 2022, 10:29 A.M.</span>
-            </div>
-            <div class="kotakpanjang">
-                <a href=""><span class="v93_151">Assignment 1</span></a>
-                <span class="text">ID : A00000003</span>
-                <span class="v93_152">Due: September 17, 2022, 10:29 A.M.</span>
-            </div>
+			<?php $stmt = $db->query("SELECT * from assignment");
+			//date blm bener
+								//<span class='v93_152'>Due: ".$duedate."</span>
+					while ($row = $stmt->fetch()) {
+						$id=$row['assignment_id'];
+						$name=$row['assignment_name'];
+						$title=$row['assignment_title'];
+						echo "<div class='kotakpanjang'>
+								<a href='view_assignment.php?id=".$id."' class='fillkotakpanjang'><span class='v93_151'>".$title."</span></a>
+								<span class='text'>ID : ".$id."</span>
+								</div>";
+					} 
+				?>
             <div class="kotakpanjang" style="background: rgba(192,192,192,1)">
                 <a href="../NewClass/index.html"><span class="bigtext">+</span></a>
             </div>
@@ -36,7 +44,6 @@
                 <a href="../NewClass/index.html"><div class="v93_158"></div></a>
                 <a href="../NewClass/index.html"><div class="v93_159"></div></a>
             </div>
-            <span class="v93_166">ID : C00000002</span>
         </div>
     </body>
 </html>
