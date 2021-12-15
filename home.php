@@ -47,6 +47,13 @@ if(!isset($_SESSION["user"])) header("Location: login.php");
                 <a href="assignment.php"><div class="v54_26"></div></a><!--Assignment Icon-->
             </div>
             <a href="assignment.php"><span class="v63_51">Assignment</span></a>
+			<div class="submissionbox">
+                <div class="submissionround1">
+                    <a href="submission.php"><div class="submissionround2"></div></a>
+                </div>
+                <a href="submission.php"><div class="submissionimg"></div></a>
+            </div>
+			<a href="submission.php"><span class="submissionspan">Submission</span></a>
         </div>
     </body>
 </html>

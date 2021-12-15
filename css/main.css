@@ -400,3 +400,55 @@ body {
   font-size: 24px;
   text-align: left;
 }
+.submissionbox{
+  width: 189px;
+  height: 238px;
+  background: rgba(240, 132, 132, 1);
+  position: absolute;
+  top: 586px;
+  left: 211px;
+  overflow: hidden;
+}
+.submissionround1{
+  width: 100px;
+  height: 100px;
+  background: url("../images/v54_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 67px;
+  left: 45px;
+  overflow: hidden;
+}
+.submissionround2{
+  width: 100px;
+  height: 100px;
+  background: rgba(189, 84, 84, 1);
+  position: absolute;
+  border-radius: 50%;
+}
+.submissionimg{
+  width: 55px;
+  height: 59px;
+  background: url("../images/checklist.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 85px;
+  left: 72px;
+  overflow: hidden;
+}
+.submissionspan{
+  width: 151px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 775px;
+  left: 236px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 24px;
+  text-align: left;
+}
