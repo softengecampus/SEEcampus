@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php 
 
 require_once("config.php");
@@ -33,12 +32,9 @@ while ($row = $stmt->fetch()) {
             <span class="text" style="font-weight: Bold; font-size: 18px;"><?php echo $title ;?></span>
                 <span class="text" style="top:40px; font-size:10px;">Created by <?php echo $postby ;?>, <?php echo $time;?>. </span>
                 <span class="text" style="top:75px;"><?php echo $detail ;?> </span>
-            
             <a href="" class="link" style="left:300px;">Reply</a> <!-- Reply edit Parent -->
             <a href="" class="link" style="left:250px;">Edit</a>
-                
             </div>
-            
             <div class="v54_48"> <!-- Add Icon -->
                 <a href=""><div class="v54_49"></div></a>
                 <a href="new_topic.php"><span class="v54_50">+</span></a>

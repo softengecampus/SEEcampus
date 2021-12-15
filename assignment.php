@@ -1,5 +1,4 @@
 <?php 
-
 require_once("config.php");
 session_start();
 if(!isset($_SESSION["user"])) header("Location: login.php");
@@ -15,7 +14,7 @@ if(!isset($_SESSION["user"])) header("Location: login.php");
     <body>
         <div class="v93_140">
             <div class="v93_141"></div>
-            <span class="v93_142">Introduction to Zumba</span>
+            <!--<span class="v93_142">Introduction to Zumba</span> !-->
             <div class="v93_143">
                 <a href="../Attendance/index.html"><div class="v93_144"></div></a>
                 <a href="../Attendance/index.html"><div class="v93_145"></div></a>
