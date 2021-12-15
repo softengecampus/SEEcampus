@@ -19,9 +19,7 @@ if(isset($_POST['post'])){
     );
 
     $stmt->execute($params);
-
-    $newpost = $stmt->fetch(PDO::FETCH_ASSOC);
-	if($newpost){
+	if($stmt){
             header("Location: attendance.php");
         }
     }
