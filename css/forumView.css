@@ -301,3 +301,41 @@ body {
   opacity: 1;
   text-align: left;
 }
+.kotakpanjang{
+  width: 362px;
+  height: 165px;
+  background: rgba(240,132,132,1);
+  opacity: 1;
+  position: absolute;
+  top: 121px;
+  left: 0px;
+  margin-left: 25px;
+  margin-top: 30px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+  float: left;
+}
+.text {
+  width: 340px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-family: Poppins;
+  font-weight: Normal;
+  font-size: 14px;
+  text-align: left;
+  opacity: 1;
+}
+.link {
+  width: auto;
+  position: absolute;
+  top:135px;
+  font-family: Poppins;
+  font-weight: Normal;
+  font-size: 14px;
+  text-decoration: none;  
+  color: black;
+}
