@@ -867,3 +867,40 @@ body {
   opacity: 1;
   text-align: left;
 }
+.kotak {
+  float: left;
+  width: 143px;
+  height: 110px;
+  background: rgba(255,255,255,1);
+  position: relative;
+  top: 50px;
+  left: 0px;
+  margin-left: 43px;
+  margin-top: 27px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.text {
+  width: 15px;
+  position: relative;
+  top: 5px;
+  left: 35px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 10px;
+  text-align: left;
+  text-decoration: none;
+}
+.bigtext {
+  width: 7px;
+  position: relative;
+  top: 25px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
