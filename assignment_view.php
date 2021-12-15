@@ -14,7 +14,6 @@ while ($row = $stmt->fetch()) {
     $file=$row['assignment_file'];
     $lengthid=strlen((string)$id);
 }
-
 ?>
 <html>
     <head>

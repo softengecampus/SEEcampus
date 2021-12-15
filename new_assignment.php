@@ -1,9 +1,7 @@
-<!DOCTYPE html>
 <?php 
 
 require_once("config.php");
 session_start();
-
 if(!isset($_SESSION["user"])) header("Location: index.php");
 
 if(isset($_POST['post'])){

@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php 
 
 require_once("config.php");
@@ -26,7 +25,6 @@ if(isset($_POST['post'])){
     );
 
     $saved = $stmt->execute($params);
-
     if($saved) header("Location: class.php");
 }
 ?>

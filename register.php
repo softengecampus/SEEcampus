@@ -28,10 +28,7 @@ if(isset($_POST['register'])){
     // maka alihkan ke halaman login
     if($saved) header("Location: index.php");
 }
-
 ?>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
