@@ -8,9 +8,9 @@ if(!isset($_SESSION["user"])) header("Location: login.php");
 if(isset($_POST['post'])){
 
     $week = filter_input(INPUT_POST, 'week', FILTER_SANITIZE_STRING);
-    $date = filter_input(INPUT_POST, 'SesDate', FILTER_SANITIZE_STRING);
+	$date = date('Y-m-d', strtotime($_POST['SesDate']));
 
-	$sql = "INSERT INTO attendance (week, date) VALUES (:week, :date)";
+	$sql = "INSERT INTO attendance (attendance_week, attendance_date) VALUES (:week, :date)";
     $stmt = $db->prepare($sql);
     
     $params = array(
@@ -19,9 +19,7 @@ if(isset($_POST['post'])){
     );
 
     $stmt->execute($params);
-
-    $newpost = $stmt->fetch(PDO::FETCH_ASSOC);
-	if($newpost){
+	if($stmt){
             header("Location: attendance.php");
         }
     }
@@ -47,7 +45,7 @@ if(isset($_POST['post'])){
             <div class="v90_133">
                 <div class="v90_134">
                     <span class="v90_137">Date:</span>
-					<input type="date" name="SesDate" class="v90_129"value="<?php echo date('Y-m-d'); ?>" required>
+					<input type="date" name="SesDate" class="v90_129" required>
                     <span class="v90_138">*</span>
                 </div>
             </div>
